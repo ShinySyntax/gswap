@@ -5,7 +5,7 @@ const CollateralOption = ({ name, value, max, isSelected, onSelect }) => {
     <div
       onClick={() => onSelect(name)}
       className={`p-2 md:p-6 bg-[#146f68] rounded-xl w-[30%] cursor-pointer shadow-md ${
-        isSelected ? " border-2 border-[#0c2e2bce]" : "bg-blue-900"
+        isSelected ? " border-2 border-[#0c2e2bce]" : "bg-[#146f68]"
       }`}
     >
       <div className="flex items-center gap-2 mb-2">
